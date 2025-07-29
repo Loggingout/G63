@@ -1,0 +1,114 @@
+/*Custom variables*/
+:root {
+    --primary: black;
+    --secondary: white;
+    --primary-text: black;
+    --secondary-text: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+/*Landing page styles*/
+.landing-page-bg {
+    background: url('/Assets/Team.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.landing-page-content-wrapper {
+    padding: 270px 0;
+}
+
+.landing-title {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+}
+
+.landing-slogan {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.landing-btn, a {
+    font-family: 'Playfair Display', serif;
+}
+
+.landing-highlight {
+    color: rgb(223, 172, 96);
+    font-weight: 900;
+    text-shadow: 0 0 10px rgba(158, 154, 154, 0.5);
+    text-decoration: underline;
+}
+
+/*Media Queries*/
+@media (max-width: 375px) {
+    .landing-page-bg {
+        height: auto;
+    }
+    .landing-page-content-wrapper {
+        padding: 150px 0;
+    }
+    .landing-title {
+        font-size: 2.5rem;
+    }
+    .landing-slogan {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 390px) {
+     .landing-page-bg {
+        height: auto;
+    }
+    .landing-page-content-wrapper {
+        padding: 50px 0;
+    }
+    .landing-title {
+        font-size: 2rem;
+    }
+    .landing-slogan {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+     .landing-page-bg {
+        height: auto;
+    }
+    .landing-page-content-wrapper {
+        padding: 150px 0;
+    }
+    .landing-title {
+        font-size: 2.5rem;
+    }
+    .landing-slogan {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 630px) {
+     .landing-page-bg {
+        height: auto;
+    }
+    .landing-page-content-wrapper {
+        padding: 150px 0;
+    }
+    .landing-title {
+        font-size: 2.5rem;
+    }
+    .landing-slogan {
+        font-size: 1.2rem;
+    }
+}
