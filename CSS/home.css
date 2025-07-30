@@ -95,6 +95,10 @@ main {
     border: 2px solid var(--primary-color);
 }
 
+.main-subslogan {
+    color: white;
+}
+
 .card-body {
     border: 2px solid var(--primary-color); /*Adds border to card body*/
     place-items: center;
@@ -102,9 +106,15 @@ main {
 }
 
 .card-title {
-    font-size: var(--fourth-font-size)
+    font-size: var(--fourth-font-size);
+    color: var(--primary-color);
 }
 
+
+.card-text {
+    color: var(--primary-color);
+    font-size: var(--third-font-size);
+}
 .grid-display {
     display: grid;
     grid-template-columns: minmax(1fr, auto, 1fr);
@@ -126,15 +136,16 @@ section {
 }
 
 .about-us-img {
-    width: 75%;
+    width: 100%;
     height: auto;
-    
+    max-height: 650px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 10px rgba(8, 8, 8, 0.1); /*Adds shadow to the image*/
+    box-shadow: 0 4px 8px 4px rgba(8, 8, 8, 0.1); /*Adds shadow to the image*/
 }
 
 .about-us-title {
     text-decoration: underline;
+    color: var(--primary-color); /*Sets color to primary color*/
 }
 
 .about-us-slogan {
@@ -155,6 +166,68 @@ section {
     .navbar-toggler-icon {
         height: 10px;
         width: 10px;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
+
+}
+
+@media (max-width: 390px) {
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
+
+}
+
+@media (max-width: 420px) {
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
+}
+
+@media (max-width: 500px) {
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
+}
+
+@media (max-width: 630px) {
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
     }
 
 }
