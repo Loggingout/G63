@@ -1,0 +1,58 @@
+/*Custom Variables*/
+:root {
+    --primary-color: #007bff; /*Primary color for buttons and highlights*/
+    --secondary-color: #6c757d; /*Secondary color for text and backgrounds*/
+    --font-family: 'Indie Flower'; /*Default font family*/
+    --font-size: 16px; /*Base font size*/
+    --secondary-font-size: 2.5rem;
+    --third-font-size: 1.3rem; /*Used for Indie Flower font*/
+    --line-height: 1.5; /*Line height for readability*/
+}
+
+/*Font Class*/
+.indie-flow-regular {
+    font-family: 'Indie Flower', cursive; /*Uses Indie Flower font for regular text*/
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box; /*Ensures padding and borders are included in element's total width and height*/
+    margin: 0; /*Resets default margin*/
+    padding: 0; /*Resets default padding*/
+}
+
+html {
+    font-size: 16px; /*Sets base font size for the document*/
+    line-height: 1.5; /*Sets base line height for the document*/
+}
+
+body {
+    font-family: var(--font-family); /*Uses custom font family*/
+    font-size: var(--font-size); /*Uses custom font size*/
+    line-height: var(--line-height); /*Uses custom line height*/
+    color: var(--secondary-color); /*Sets text color to secondary color*/
+    background-color: #f8f9fa; /*Light background color for the body*/
+}
+
+#company-title {
+    font-size: var(--secondary-font-size);
+    font-weight: 600;
+}
+
+.nav-item {
+    font-family: var(--font-family); /*Uses custom font family for list items*/
+    font-size: 1.1rem;
+}
+
+.social-media-links {
+    display: flex; /*Uses flexbox for layout*/
+    justify-content: center; /*Centers the social media links horizontally*/
+    gap: 1rem; /*Adds space between each link*/
+}
+
+.social-media-title {
+    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: var(--third-font-size);
+}

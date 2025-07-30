@@ -16,17 +16,23 @@ html {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    background: black;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    background: black;
 }
 /*Landing page styles*/
 .landing-page-bg {
-    background: url('/Assets/Team.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
 .landing-page-content-wrapper {
-    padding: 270px 0;
+    padding: 50px 0;
+    color: var(--secondary-text)
 }
 
 .landing-title {
@@ -43,6 +49,7 @@ html {
 
 .landing-btn, a {
     font-family: 'Playfair Display', serif;
+    margin: 15px;
 }
 
 .landing-highlight {
@@ -58,13 +65,16 @@ html {
         height: auto;
     }
     .landing-page-content-wrapper {
-        padding: 150px 0;
+        padding: 100px 0;
     }
     .landing-title {
         font-size: 2.5rem;
     }
     .landing-slogan {
         font-size: 1.2rem;
+    }
+    .landing-highlight {
+        font-size: 1rem;
     }
 }
 
@@ -103,7 +113,7 @@ html {
         height: auto;
     }
     .landing-page-content-wrapper {
-        padding: 150px 0;
+        padding: 100px 0;
     }
     .landing-title {
         font-size: 2.5rem;
