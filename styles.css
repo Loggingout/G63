@@ -16,109 +16,143 @@ html {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    background: black;
 }
 
 header {
     height: auto;
     width: 100%;
-    background: black;
+    color: white;
 }
-/*Landing page styles*/
-.landing-page-bg {
-    height: 100vh;
+
+body {
+    color: white;
+    background: url("./Assets/Globe.jpg") no-repeat center center/cover;
+    background-image: cover;
     width: 100%;
+    height: auto;
 }
 
-.landing-page-content-wrapper {
-    padding: 50px 0;
-    color: var(--secondary-text)
+main {
+    padding: 20px;
 }
 
-.landing-title {
-    font-size: 3rem;
-    font-weight: 800;
-    font-family: 'Playfair Display', serif;
+footer {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    height: auto;
+    color: white;
 }
 
-.landing-slogan {
+.header-slogan {
+    color: greenyellow;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 0 10px black;
+    font-size: 3.5rem;
+    margin-bottom: 35px;
+}
+
+.header-bg {
+    padding: 10px;
+}
+
+.header-slogan-container {
+   width: 100%;
+   height: auto;
+}
+
+.header-slogan-img {
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+.main-bg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-btn {
+    position: relative;
+    right: 100px;
+    box-shadow: 0 0 10px black;
+}
+
+#header-link {
+    font-weight: 700;
+    color: rgb(228, 206, 107);
+    font-size: 1.2rem;
+    
+}
+
+/**/
+
+#brand-name {
     font-size: 2rem;
+}
+
+#brand-name, #nav-link {
+    color: white;
+
+}
+#nav-link {
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 3px;
+}
+
+.header-text {
+    color: whitesmoke;
     font-weight: 600;
-    font-family: 'Playfair Display', serif;
-}
-
-.landing-btn, a {
-    font-family: 'Playfair Display', serif;
-    margin: 15px;
-}
-
-.landing-highlight {
-    color: rgb(223, 172, 96);
-    font-weight: 900;
-    text-shadow: 0 0 10px rgba(158, 154, 154, 0.5);
-    text-decoration: underline;
+    text-shadow: 0 0 10px black;
+    font-size: 1.3rem;
 }
 
 /*Media Queries*/
 @media (max-width: 375px) {
-    .landing-page-bg {
-        height: auto;
-    }
-    .landing-page-content-wrapper {
-        padding: 100px 0;
-    }
-    .landing-title {
-        font-size: 2.5rem;
-    }
-    .landing-slogan {
-        font-size: 1.2rem;
-    }
-    .landing-highlight {
-        font-size: 1rem;
-    }
+  
 }
 
 @media (max-width: 390px) {
-     .landing-page-bg {
-        height: auto;
-    }
-    .landing-page-content-wrapper {
-        padding: 50px 0;
-    }
-    .landing-title {
-        font-size: 2rem;
-    }
-    .landing-slogan {
-        font-size: 1.2rem;
-    }
+   
 }
 
 @media (max-width: 500px) {
-     .landing-page-bg {
-        height: auto;
-    }
-    .landing-page-content-wrapper {
-        padding: 150px 0;
-    }
-    .landing-title {
-        font-size: 2.5rem;
-    }
-    .landing-slogan {
-        font-size: 1.2rem;
-    }
+  #brand-name {
+    font-size: 1rem;
+  }
+  .header-slogan {
+    font-size: 2rem;
+  }
+  .main-bg {
+    flex-direction: column;
+  }
+  .header-text {
+    font-size: 1rem;
+  }
+  #header-link {
+    font-size: 0.8rem;
+  }
+  .header-btn {
+    position: relative;
+    right: 50px;
+    font-size: 0.8rem;
+    bottom: 13px;
+  }
+
+  .footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer-title, .footer-text {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 630px) {
-     .landing-page-bg {
-        height: auto;
-    }
-    .landing-page-content-wrapper {
-        padding: 100px 0;
-    }
-    .landing-title {
-        font-size: 2.5rem;
-    }
-    .landing-slogan {
-        font-size: 1.2rem;
-    }
+     
 }

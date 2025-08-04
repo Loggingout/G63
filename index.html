@@ -13,31 +13,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <!--Landing Page background-->
-        <div class="container-fluid landing-page-bg">
-            <!--Landing page content-->
+<header>
+    <!--Header-->
+    <div class="container-fluid header-bg">
+        <!-- Collapsing Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-background mb-5">
             <div class="container-fluid">
-                <div class="container-sm landing-page-content-wrapper">
-                    <!--Image-->
-                    <img src="/Assets/Team.jpg" alt="Team of people working together" class="img-fluid img-thumbnail landing-page-image">
-                    <div class="container-sm landing-page-content">
-                        <h1 class="text-center mt-5 landing-title">Welcome to <span class="landing-highlight">Fantome Technologies</span></h1>
-                        <p class="text-center mt-3 landing-slogan">Custom web design at it's finest!</p>
-                        <div class="text-center mt-4 landing-btn">
-                            <!--Add link to home page-->
-                            <a href="./Pages/home.html" class="btn btn-primary">
-                                Explore Our Website
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                </svg>
-                            </a>
-                        </div>
+                <a class="navbar-brand brand-name" href="#" id="brand-name">Fantome Technologies</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" style="color: white;">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex justify-content-end w-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link">Twitter</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link">BlueSky</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container-fluid d-flex align-items-center main-bg">
+        <!--Header slogan text-->
+        <div class="container header-slogan-container">
+            <h1 class="header-slogan">Cast a wider net so the people in your community can reach you-</h1>
+            <p class="header-text">
+                We understand that not everyone has the skill-set to build a website. We handle that for our customers.
+                Here at Fantome Technologies we thrive for making a change for all business no matter the consumer scale.
+            </p>
+            <button class="btn btn-outline-light mt-4 float-end header-btn" type="button"><a href="" class="nav-link" id="header-link">Learn more</a></button>
         </div>
-    </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <div class="container-fluid header-img-container">
+            <img src="./Assets/woman smiling.jpg" alt="" class="img-fluid header-slogan-img rounded-2">
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container-fluid">
+       <div class="grid row">
+        <div class="row">
+            <div class="col-md-12 ">
+                <h5 class="text-center footer-title">Copyrights & other legal info</h5>
+                <p class="text-center footer-text">Fantome Technologies(FT) is a technology company focused on a the sole purpose of full-stack web building applications & SASS services.</p>
+            </div>
+        </div>
+       </div>
+    </div>
+</footer> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body> 
 </html>
