@@ -1,39 +1,41 @@
 /*Custom variables*/
 :root {
-    --primary: black;
-    --secondary: white;
-    --primary-text: black;
-    --secondary-text: white;
+  --primary: black;
+  --secondary: white;
+  --primary-text: black;
+  --secondary-text: white;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    height: auto;
-    width: 100%;
-    color: white;
+  height: auto;
+  width: 100%;
+  color: white;
 }
 
 body {
-    color: white;
-    background: url("./Assets/Globe.jpg") no-repeat center center/cover;
-    background-image: cover;
-    width: 100%;
-    height: auto;
+  color: white;
+  background: url("./Assets/Globe.jpg") no-repeat center center/cover;
+  background-image: cover;
+  width: 100%;
+  height: auto;
 }
 
 main {
-    padding: 20px;
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
 }
 
 footer {
@@ -46,68 +48,68 @@ footer {
 }
 
 .header-slogan {
-    color: greenyellow;
-    text-align: center;
-    font-weight: 700;
-    text-shadow: 0 0 10px black;
-    font-size: 3.5rem;
-    margin-bottom: 35px;
+  color: greenyellow;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0 0 10px black;
+  font-size: 3.5rem;
+  margin-bottom: 35px;
 }
 
 .header-bg {
-    padding: 10px;
+  padding: 10px;
 }
 
 .header-slogan-container {
-   width: 100%;
-   height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .header-slogan-img {
-    width: 100%;
-    box-shadow: 0 0 10px black;
+  width: 100%;
+  box-shadow: 0 0 10px black;
 }
 
 .main-bg {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-btn {
-    position: relative;
-    right: 100px;
-    box-shadow: 0 0 10px black;
+  position: relative;
+  right: 100px;
+  box-shadow: 0 0 10px black;
 }
 
 #header-link {
-    font-weight: 700;
-    color: rgb(228, 206, 107);
-    font-size: 1.2rem;
+  font-weight: 200;
+  color: greenyellow;
+  font-size: 1.2rem;
     
 }
 
 /**/
 
 #brand-name {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 #brand-name, #nav-link {
-    color: white;
+  color: white;
 
 }
 #nav-link {
-    border: 1px solid white;
-    border-radius: 5px;
-    font-size: 0.8rem;
-    margin: 3px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin: 3px;
 }
 
 .header-text {
-    color: whitesmoke;
-    font-weight: 600;
-    text-shadow: 0 0 10px black;
-    font-size: 1.3rem;
+  color: whitesmoke;
+  font-weight: 600;
+  text-shadow: 0 0 10px black;
+  font-size: 1.3rem;
 }
 
 /*Media Queries*/

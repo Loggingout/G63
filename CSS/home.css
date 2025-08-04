@@ -2,7 +2,7 @@
 :root {
     --primary-color: #007bff; /*Primary color for buttons and highlights*/
     --secondary-color: #6c757d; /*Secondary color for text and backgrounds*/
-    --font-family: 'Indie Flower'; /*Default font family*/
+    --font-family: 'Playfair Display'; /*Default font family*/
     --font-size: 16px; /*Base font size*/
     --secondary-font-size: 2.5rem;
     --third-font-size: 1.3rem; /*Used for Indie Flower font*/
@@ -61,8 +61,9 @@ body {
     background-color: #f8f9fa; /*Light background color for the body*/
 }
 
-#company-title {
-    font-size: var(--secondary-font-size);
+#brand-name {
+    font-family: var(--font-family);
+    font-size: var(--fourth-font-size);
     font-weight: 600;
 }
 
@@ -71,91 +72,15 @@ body {
     font-size: 1.1rem;
 }
 
-.social-media-links {
-    display: flex; /*Uses flexbox for layout*/
-    justify-content: center; /*Centers the social media links horizontally*/
-    gap: 1rem; /*Adds space between each link*/
-}
-
-.social-media-title {
-    font-weight: 600;
-    font-family: var(--font-family);
-    font-size: var(--third-font-size);
-}
-
-main {
-    padding: 4rem; /*Adds padding around the main content area*/
-    background: black;
-}
-
-.main-img {
-    width: 100%; /*Makes the image responsive to the width of its container*/
-    height: auto; /*Maintains aspect ratio of the image*/
-    border-radius: 0.5rem; /*Adds rounded corners to the image*/
-    border: 2px solid var(--primary-color);
-}
-
-.main-subslogan {
+#nav-link {
     color: white;
 }
 
-.card-body {
-    border: 2px solid var(--primary-color); /*Adds border to card body*/
-    place-items: center;
-    border-radius: 5px;
-}
-
-.card-title {
-    font-size: var(--fourth-font-size);
-    color: var(--primary-color);
-}
-
-
-.card-text {
-    color: var(--primary-color);
-    font-size: var(--third-font-size);
-}
-.grid-display {
-    display: grid;
-    grid-template-columns: minmax(1fr, auto, 1fr);
-    grid-template-rows: minmax(2fr, 1fr, 2fr);
-}
-
-/*About Us Styles*/
-
-section {
-    padding: 4rem; /*Adds padding around the section*/
-    background-color: #f8f9fa; /*Light background color for the section*/
-}
-
-.about-us-bg {
+.header-grid-img {
     width: 100%;
-    height: auto;
+    height: 400px;
     border-radius: 5px;
-    padding: 20px;
-}
-
-.about-us-img {
-    width: 100%;
-    height: auto;
-    max-height: 650px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 4px rgba(8, 8, 8, 0.1); /*Adds shadow to the image*/
-}
-
-.about-us-title {
-    text-decoration: underline;
-    color: var(--primary-color); /*Sets color to primary color*/
-}
-
-.about-us-slogan {
-    font-size: var(--secondary-font-size);
-}
-
-.about-us-text {
-    font-size: var(--fourth-font-size);
-    text-decoration: underline;
-    line-height: 2.7rem;
+    box-shadow: 0 0 10px black;
 }
 
 /*Media Queries*/
