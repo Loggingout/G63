@@ -26,7 +26,7 @@ header {
 
 body {
   color: white;
-  background: url("./Assets/Globe.jpg") no-repeat center center/cover;
+  background: url("./Assets/Distant\ planets.JPG") no-repeat center center/cover;
   background-image: cover;
   width: 100%;
   height: auto;
@@ -35,7 +35,7 @@ body {
 main {
   width: 100%;
   padding: 20px;
-  height: 100vh;
+  height: auto;
 }
 
 footer {
