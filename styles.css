@@ -35,7 +35,7 @@ body {
 main {
   width: 100%;
   padding: 20px;
-  height: auto;
+  height: 100vh;
 }
 
 footer {
@@ -114,7 +114,43 @@ footer {
 
 /*Media Queries*/
 @media (max-width: 375px) {
-  
+  header {
+    flex-direction: column;
+  }
+  .header-slogan {
+    font-size: 5rem;
+  }
+   #brand-name {
+    font-size: 1rem;
+  }
+  .header-slogan {
+    font-size: 4rem;
+  }
+  .main-bg {
+    flex-direction: column;
+  }
+  .header-text {
+    font-size: 1rem;
+  }
+  #header-link {
+    font-size: 0.8rem;
+  }
+  .header-btn {
+    position: relative;
+    right: 50px;
+    font-size: 0.8rem;
+    bottom: 13px;
+  }
+
+  .footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer-title, .footer-text {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 390px) {
