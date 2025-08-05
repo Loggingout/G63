@@ -151,7 +151,9 @@ footer {
 }
 
 @media (max-width: 390px) {
-   
+  .header-slogan-img {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 500px) {
@@ -169,6 +171,9 @@ footer {
   }
   #header-link {
     font-size: 0.8rem;
+  }
+  .header-slogan-img {
+    visibility: hidden;
   }
   .header-btn {
     position: relative;
