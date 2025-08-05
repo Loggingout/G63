@@ -28,14 +28,14 @@ body {
   color: white;
   background: url("./Assets/Distant\ planets.JPG") no-repeat center center/cover;
   background-image: cover;
+  object-fit: cover;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 main {
   width: 100%;
   padding: 20px;
-
 }
 
 footer {
@@ -113,25 +113,19 @@ footer {
 
 /*Media Queries*/
 @media (max-width: 375px) {
-  body {
-    height: 100vh;
-  }
   header {
     flex-direction: column;
   }
   .main-slogan {
-    font-size: 5rem;
+    font-size: 1.5rem;
   }
    #brand-name {
     font-size: 1rem;
   }
-  .main-slogan {
-    font-size: 4rem;
-  }
   .main-bg {
     flex-direction: column;
   }
-  .header-text {
+  .main-text {
     font-size: 1rem;
   }
   #header-link {
@@ -143,7 +137,9 @@ footer {
     font-size: 0.8rem;
     bottom: 13px;
   }
-
+  .header-slogan-img {
+    visibility: hidden;
+  }
   .footer {
     position: sticky;
     bottom: 0;
