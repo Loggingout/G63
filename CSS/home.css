@@ -125,6 +125,17 @@ main {
     padding: 10px;
 }
 
+/*Features*/
+.feature-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.features-content-container {
+    padding: 40px;
+}
+
 
 /*Media Queries*/
 @media (max-width: 375px) {
