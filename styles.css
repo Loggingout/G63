@@ -1,301 +1,251 @@
-/*Custom variables*/
+/*Custom Variables*/
 :root {
-  --primary: black;
-  --secondary: white;
-  --primary-text: black;
-  --secondary-text: white;
+    --primary-color: #007bff; /*Primary color for buttons and highlights*/
+    --secondary-color: #6c757d; /*Secondary color for text and backgrounds*/
+    --third-color: white;
+    --font-family: 'Playfair Display'; /*Default font family*/
+    --font-size: 16px; /*Base font size*/
+    --secondary-font-size: 2.5rem;
+    --third-font-size: 1.3rem; /*Used for Indie Flower font*/
+    --fourth-font-size: 1.5rem; /*Used for H1*/
+    --line-height: 1.5; /*Line height for readability*/
 }
 
+/*Font Class*/
+.indie-flow-regular {
+    font-family: 'Indie Flower', cursive; /*Uses Indie Flower font for regular text*/
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bodoni-moda {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.agu-display {
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box; /*Ensures padding and borders are included in element's total width and height*/
+    margin: 0; /*Resets default margin*/
+    padding: 0; /*Resets default padding*/
 }
 
 html {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  height: auto;
-  width: 100%;
-  color: white;
+    font-size: 16px; /*Sets base font size for the document*/
+    line-height: 1.5; /*Sets base line height for the document*/
+    scroll-behavior: smooth;
 }
 
 body {
-  color: white;
-  background: url("./Assets/Distant\ planets.JPG") no-repeat center center/cover;
-  background-image: cover;
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
-
-main {
-  width: 100%;
-  height: auto;
+    font-family: var(--font-family); /*Uses custom font family*/
+    font-size: var(--font-size); /*Uses custom font size*/
+    line-height: var(--line-height); /*Uses custom line height*/
+    color: var(--secondary-color); /*Sets text color to secondary color*/
 }
 
 footer {
-    position: relative;
+    position: -webkit-sticky;
     bottom: 0;
-    background: black;
     width: 100%;
-    height: auto;
-    color: white;
-    clear: both;
-}
-
-.main-slogan {
-  color: greenyellow;
-  text-align: center;
-  font-weight: 700;
-  text-shadow: 0 0 10px black;
-  font-size: 3.5rem;
-  margin-bottom: 35px;
-}
-
-.main-bg {
-   padding: 100px 0;
 }
 
 .header-bg {
-  padding: 10px;
+    background: black;
 }
-
-.header-slogan-container {
-  width: 100%;
-  height: auto;
-  
-}
-
-.header-slogan-img {
-  width: 100%;
-  box-shadow: 0 0 10px black;
-}
-
-.header-btn {
-  position: relative;
-  right: 100px;
-  box-shadow: 0 0 10px black;
-}
-
-#header-link {
-  font-weight: 200;
-  color: greenyellow;
-  font-size: 1.2rem;
-    
-}
-
-/**/
 
 #brand-name {
-  font-size: 2rem;
+    font-family: var(--font-family);
+    font-size: var(--fourth-font-size);
+    font-weight: 600;
+    color: var(--third-color);
 }
 
-#brand-name, #nav-link {
-  color: white;
-
+.nav-item {
+    font-family: var(--font-family); /*Uses custom font family for list items*/
+    font-size: 1.1rem;
 }
+
 #nav-link {
-  border: 1px solid white;
-  border-radius: 5px;
-  font-size: 0.8rem;
-  margin: 3px;
+    color: white;
+}
+
+main {
+    margin: 0;
+    background: url("/Assets/Partical.jpg") no-repeat center;
+    height: auto;
+    width: 100%;
+}
+
+.main-bg {
+   
+}
+
+.main-slogan {
+    font-size: 4rem;
+    text-shadow: 0 0 8px white;
 }
 
 .main-text {
-  color: whitesmoke;
-  font-weight: 600;
-  text-shadow: 0 0 10px black;
-  font-size: 1.3rem;
+    font-size: 1.3rem;
+    text-shadow: 0 0 8px white;
 }
 
-/*Media Queries*/
-@media (max-width: 375px) {
-  header {
-    flex-direction: column;
-  }
-  .main-slogan {
-    font-size: 1.5rem;
-  }
-   #brand-name {
-    font-size: 1rem;
-  }
-  .main-bg {
-    flex-direction: column;
-  }
-  .main-text {
-    font-size: 1rem;
-  }
-  #header-link {
-    font-size: 0.8rem;
-  }
-  .header-btn {
-    position: relative;
-    right: 50px;
-    font-size: 0.8rem;
-    bottom: 13px;
-  }
-  .header-slogan-img {
-    visibility: hidden;
-  }
-  .footer {
-    position: sticky;
-    bottom: 0;
+.main-quote {
+    font-weight: 800;
+    text-shadow: 0 0 8px white;
+}
+
+.main-img {
+    box-shadow: 0 0 10px white;
+}
+
+/*About Us styles*/
+.about-us-container {
+    padding: 10px;
+}
+
+.about-us-text-container {
+    padding: 10px;
+}
+
+/*Features*/
+.feature-img {
     width: 100%;
-  }
-  .footer-title, .footer-text {
-    font-size: 0.7rem;
-  }
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+
+/*Price styles*/
+.price-bg-container {
+    background: url("/Assets/Glow.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.price-content-container {
+    padding: 15px;
+}
+
+.price-title {
+    color: white;
+}
+
+.price-text {
+    color: white;
+}
+
+/*Form styles*/
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.features-content-container {
+    padding: 40px;
+}
+
+
+/*Media Queries*/
+@media (min-width: 320px) and (max-width: 360px) {
+
+}
+
+@media (max-width: 375px) {
+    #brand-name {
+        font-size: 1.1rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 20px;
+        width: 20px;
+        color: white;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+    .main-slogan {
+      font-size: 1.5rem;
+    }
+    .main-content-bg {
+      display: flex;
+    }
+
 }
 
 @media (max-width: 390px) {
-  .header-slogan-img {
-    visibility: hidden;
-  }
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
+
+}
+
+@media (max-width: 420px) {
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
 }
 
 @media (max-width: 500px) {
-  #brand-name {
-    font-size: 1rem;
-  }
-  .main-slogan {
-    font-size: 2rem;
-  }
-  .main-bg {
-    flex-direction: column;
-  }
-  .main-text {
-    font-size: 1rem;
-  }
-  #header-link {
-    font-size: 0.8rem;
-  }
-  .header-slogan-img {
-    visibility: hidden;
-  }
-  .header-btn {
-    position: relative;
-    right: 50px;
-    font-size: 0.8rem;
-    bottom: 13px;
-  }
-  .footer-title, .footer-text {
-    font-size: 0.7rem;
-  }
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
 }
 
-@media (max-width: 520px) {
-  #brand-name {
-    font-size: 1.6rem;
-  }
-  .svg-icon {
-    height: 26px;
-    width: 26px;
-  }
-  .main-slogan {
-    font-size: 2.5rem;
-  }
-  .main-bg {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-text {
-    font-size: 1.5rem;
-  }
-  #header-link {
-    font-size: 1.2rem;
-  }
-  .header-btn {
-    position: relative;
-    right: 50px;
-    font-size: 1rem;
-    top: 20px;
-  }
-  .header-img-container {
-    position: relative;
-    top: 100px;
-  }
-  .footer-title, .footer-text {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 560px) {
-  #brand-name {
-    font-size: 1rem;
-  }
-  .header-slogan {
-    font-size: 2rem;
-  }
-  .main-bg {
-    flex-direction: column;
-  }
-  .header-text {
-    font-size: 1rem;
-  }
-  #header-link {
-    font-size: 0.8rem;
-  }
-  .header-btn {
-    position: relative;
-    right: 50px;
-    font-size: 0.8rem;
-    bottom: 13px;
-  }
-  .footer-title, .footer-text {
-    font-size: 0.7rem;
-  }
-}
 @media (max-width: 630px) {
-     
+    #company-title {
+        font-size: 1.5rem; /*Reduces font size for smaller screens*/
+    }
+    .navbar-toggler-icon {
+        height: 10px;
+        width: 10px;
+    }
+    .about-us-img {
+        width: 100%; /*Makes the image responsive to smaller screens*/
+    }
+
 }
-
-/*@media (max-width: 2532px) and (max-height: 1170px) {
-  header {
-    flex-direction: column;
-  }
-  .header-slogan {
-    font-size: 5rem;
-  }
-   #brand-name {
-    font-size: 1rem;
-  }
-  .main-bg {
-    flex-direction: column;
-    height: auto;
-
-  }
-  .header-text {
-    font-size: 1rem;
-  }
-  #header-link {
-    font-size: 0.8rem;
-  }
-  .header-btn {
-    position: relative;
-    right: 50px;
-    font-size: 0.8rem;
-    bottom: 13px;
-  }
-
-  .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  .footer-title, .footer-text {
-    font-size: 0.7rem;
-  }
-  .header-slogan-img {
-    width: 50%;
-    height: 300px;
-  }
-  .header-img-container {
-    
-  }
-}*/

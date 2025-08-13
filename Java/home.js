@@ -1,9 +1,9 @@
 //Form control 
-
 //Get id's from elements needed using Id
 let formName = document.getElementById('name');
 let formEmail = document.getElementById('email');
 let formMessage = document.getElementById('message');
+let formBtn = document.getElementById('submit');
 
 //Function for form to prevent it submitting to itself.
 function form(e) {
