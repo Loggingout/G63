@@ -16,7 +16,7 @@ Local or International, no matter where you are in the world working together wi
 
 Every customer will be provided a particular time frame for our DSA (Developer Support Assistance) perk. 
 
-DSA (Developer Support Assistance) all business will have a option to DSA upon deployment. The first month will be free, after that month you will be able renew your DSA for monthly fee if you perfer to pay for the DSA perk yearly it would be a one time payment.
+DSA (Developer Support Assistance) all business will have a option to DSA upon deployment. The first month will be free, after that month you will be able renew your DSA for monthly fee if you perfer to pay for the DSA perk yearly it would be a one time payment each year.
 
 
 ## 🗓️ Updates 
