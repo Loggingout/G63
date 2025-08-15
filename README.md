@@ -17,3 +17,13 @@ Local or International, no matter where you are in the world working together wi
 Every customer will be provided a particular time frame for our DSA (Developer Support Assistance) perk. 
 
 DSA (Developer Support Assistance) all business will have guaranteed DSA contract that lasts 2 months. After the 2 months are up you will be able renew your DSA for yearly one-time fee.
+
+## 🗓️ Updates 
+
+There are no available updates right now. Check back here to stay informed. 
+
+## 🏆Looking to work together 
+
+contact me via email: Fantometechnologies@gmail.com
+
+Looking forward to hearing from you ❗️
