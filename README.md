@@ -14,6 +14,6 @@ Local or International, no matter where you are in the world working together wi
 
 ## Perks ⌛
 
-Every customer will be provided a particular time frame for our developer support perk. 
+Every customer will be provided a particular time frame for our DSA (Developer Support Assistance) perk. 
 
 DSA (Developer Support Assistance) all business will have guaranteed DSA contract that lasts 2 months. After the 2 months are up you will be able renew your DSA for yearly one-time fee.
