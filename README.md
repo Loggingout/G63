@@ -6,7 +6,7 @@ This is my company website for custom web development & design
 
 ## Customer type 🔗
 
-No matter the size of your business here at fantome Technologies we like to push the limits of imagination for the website you desire.
+No matter the size of your business here at Fantome Technologies we like to push the limits of imagination for the website you desire.
 
 We work Small Businesses, Large Businesses, Corporations. If you are a individual creator we also provide our services to you as well. All businesses are welcome and embraced with open arms.
 
